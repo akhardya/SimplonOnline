@@ -1,4 +1,4 @@
 DATABASE_PASSWORD="something"
-PORT=3000
+PORT=3002
 REDIS_URL=redis://redistogo:blablabla@jack.redistogo.com:10144/
-MAILER_HOST=localhost:3000
+MAILER_HOST=localhost:3002

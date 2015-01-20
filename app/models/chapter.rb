@@ -56,6 +56,17 @@ class Chapter < ActiveRecord::Base
     subs.uniq
   end
 
+  def self.search(search)
+    if search
+      where("title @@ :s or content @@ :s or category @@ :s", s: search)
+    else
+      @all_chapters
+    end
+  end
+
+  def chapter_read
+  end
+  
   private
 
   def next_prev(direction)

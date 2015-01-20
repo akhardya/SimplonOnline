@@ -10,6 +10,7 @@ fr:
   layouts:
     application:
       session: "Sessions"
+      chapters: "Chapitres"
       definition: "Lexique"
       about: "À propos"
       home: "Tableau de bord"
@@ -203,9 +204,13 @@ fr:
       edit: "Editer le chapitre"
       next_chapter: "Chapitre suivant"
       prev_chapter: "Chapitre précédent"
-
+      chapter_read: "Chapitre lu"
       ask_pair_validation_on_submission: "Une demande de validation par les pairs est demandée dans ce chapitre. Soumettez votre proposition ici, d'autres élèves viendront la valider ou en parler."
-
+    index:
+      title: 'Rechercher un chapitre'
+      search: 'Rechercher'
+      results_title: 'Résultat(s)'
+      all_chapters: 'Tous les chapitres'
     new:
       title: "Créer un chapitre"
       create: "Enregistrer"
@@ -660,5 +665,3 @@ Nous organiserons également des rencontres physiques à l'occasion d'évènemen
     "#maintenance",
     "#API"
   ]
-
-

@@ -21,4 +21,21 @@ class Message < ActiveRecord::Base
     message.save!
   end
 
+  def self.search(query)
+    if query
+      pg_query = query.split(' ').join(' & ')
+      where("to_tsvector(title || ' ' || content) @@ to_tsquery('#{pg_query}')")
+    else
+      @messages
+    end
+  end
+
+  def users_to_notify
+    if parent
+      [parent.user].concat(parent.users_to_notify).uniq
+    else
+      []
+    end 
+  end
+
 end

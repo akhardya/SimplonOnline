@@ -10,7 +10,7 @@ fr:
   layouts:
     application:
       session: "Sessions"
-      chapters: "Chapitres"
+      chapters: "Chercher un chapitre"
       definition: "Lexique"
       about: "À propos"
       home: "Tableau de bord"
@@ -56,6 +56,9 @@ fr:
       last_answer: ': dernière réponse postée le'
       initial_subject: ': sujet lancé le'
       by: 'par'
+      search_title: 'Rechercher un message sur le forum'
+      search: 'Rechercher'
+      results_title: 'Résultat(s)'
     new:
       title: "Poster un nouveau message"
       cancel: 'Retour'
@@ -205,6 +208,8 @@ fr:
       next_chapter: "Chapitre suivant"
       prev_chapter: "Chapitre précédent"
       chapter_read: "Chapitre lu"
+      contact: "Signaler un problème"
+
       ask_pair_validation_on_submission: "Une demande de validation par les pairs est demandée dans ce chapitre. Soumettez votre proposition ici, d'autres élèves viendront la valider ou en parler."
     index:
       title: 'Rechercher un chapitre'
@@ -220,10 +225,12 @@ fr:
       update: 'Mettre à jour'
       cancel: 'annuler'
     form:
+      pair_validation_explain: "N'hésitez pas à proposer une revue par les pairs. Pour le faire, créer un projet sur le compte [github simplonco](http://github.com/simplonco), puis communiqué l'url du projet. Les élèves distants devront faire une pull request."
       category: "Catégorie"
       title: "Titre"
       number: "Position"
       content: "Contenu"
+      lesson: "Session"
       ask_for_pair_validation: "Demande de validation par les pairs"
       tags: "Tags"
       authors: "Auteur(s)"
@@ -484,6 +491,22 @@ Nous organiserons également des rencontres physiques à l'occasion d'évènemen
     contact:
       contact_base: "contact depuis: %{name} [%{email}] "
       subject: "Contact depuis la plateforme"
+    reminder_to_inactive_users:
+      subject: "Vous nous manquez ! - FOAD de Simplon.co"
+      body: "
+      #Vous n'avez pas visité la FOAD depuis une semaine !
+
+
+      Bonjour %{user_name},
+
+
+      Nous avons noté que vous n'aviez pas eu l'occasion de visiter la FOAD depuis une semaine. Beaucoup de choses se sont passées depuis : n'hésitez pas à lire [la dernière leçon mise en ligne](http://foad.simplon.co/lessons) ou [les derniers messages postés sur le forum](http://foad.simplon.co/messages).
+
+
+      A bientôt !
+
+
+      L'équipe Simplon"
     reset_password:
       subject: "Votre accès à la plateforme Simplonline - FOAD de Simplon.co"
       body: "
@@ -543,6 +566,7 @@ Nous organiserons également des rencontres physiques à l'occasion d'évènemen
     "#Kata",
     "#Outils",
     "#Framework & Lib",
+    "#infrastructure",
     "#software",
     "#licences",
     "#free",

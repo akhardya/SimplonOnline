@@ -5,6 +5,9 @@ class Chapter < ActiveRecord::Base
   has_many :chapter_authors
   has_many :authors, through: :chapter_authors, source: :user
 
+  has_many :read_chapters
+  has_many :readers, through: :read_chapters, source: :user
+
   validates_presence_of :lesson, :title, :authors, :number
 
   scope :about, ->(tag) { where("ARRAY[?]::varchar[] && tags", tag) }

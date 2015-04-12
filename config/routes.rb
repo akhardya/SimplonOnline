@@ -18,6 +18,7 @@ Rails.application.routes.draw do
 
   resources :lessons do
     resources :chapters do
+      resource :read, only: [:create, :destroy]
       resources :submissions do
         resource :validation
       end

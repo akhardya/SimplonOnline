@@ -23,7 +23,7 @@ class ChaptersControllerTest < ActionController::TestCase
     assert_equal I18n.t(:categories), assigns(:available_categories)
   end
 
-  test "can go to new when remote student" do
+  test "can't go to new when remote student" do
     setup_with(User::REMOTE)
     get :new, lesson_id: lesson
     assert_redirected_to root_path

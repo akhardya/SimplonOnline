@@ -9,3 +9,4 @@ dump.rdb
 public/exercice
 public/uploads
 .env
+.dotenv

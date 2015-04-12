@@ -12,10 +12,9 @@
   %h1= "#{@chapter.category} - #{@chapter.title}"
   = markdown(@chapter.content)
 
-= form_for @chapter, url: lesson_chapter_path(@lesson, @chapter) do |c|
-  %p
-    = c.check_box :chapter_read, class: 'field'
-    = c.label :chapter_read, t('.chapter_read')
+= form_tag  lesson_chapter_read_path(@lesson, @chapter) do 
+  %button
+    = t('.chapter_read')
 
 %p.tags
   - @chapter.tags.each do |tag|

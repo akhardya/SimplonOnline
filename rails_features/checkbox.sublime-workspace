@@ -1,0 +1,207 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ex",
+				"explosionSprite"
+			],
+			[
+				"p",
+				"playerRect"
+			],
+			[
+				"pla",
+				"playerObject"
+			],
+			[
+				"explosion",
+				"explosionPos"
+			],
+			[
+				"i",
+				"imageY"
+			],
+			[
+				"imag",
+				"imageX"
+			],
+			[
+				"get",
+				"get_rect"
+			],
+			[
+				"bullet",
+				"bulletSprite"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 75.0,
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: #!/usr/bin/env"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/akhardya/Documents/TDD_Dojo/Ruby/Kata/katagarros_test.rb",
+		"/home/akhardya/Sites/SimplonOnline/app/assets/stylesheets/application.css.scss",
+		"/home/akhardya/Sites/SimplonOnline/app/helpers/chapters_helper.rb",
+		"/home/akhardya/Sites/Blog/config/database.yml",
+		"/home/akhardya/Sites/Blog/README.rdoc",
+		"/home/akhardya/Sites/Blog/Gemfile",
+		"/home/akhardya/Sites/Blog/",
+		"/Sites/Blog",
+		"/home/akhardya/.gitconfig",
+		"/home/akhardya/Documents/pythonGame/game_project/Github_initiation/How_jeuPython/.git/COMMIT_EDITMSG",
+		"/home/akhardya/Documents/pythonGame/game_project/shoot_em_up/PygameS03/shoot2.py",
+		"/home/akhardya/Documents/pythonGame/game_project/shoot_em_up/PygameS02/shoot1.py",
+		"/home/akhardya/Documents/pythonGame/game_project/shoot_em_up/PygameS02/shoot.py",
+		"/home/akhardya/Documents/pythonGame/game_project/shoot_em_up/shoot.py",
+		"/home/akhardya/Documents/pythonGame/game_project/shoot_em_up/PygameS01/game2.py",
+		"/home/akhardya/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": true,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "checkbox.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 123.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
